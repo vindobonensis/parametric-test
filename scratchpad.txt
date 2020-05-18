@@ -1,0 +1,16 @@
+[IdyllVegaLite data:annualPrecip spec:`{
+  mark: "bar",
+  encoding: {
+    x: {
+      field: "time",
+      type: "temporal",
+      axis: {title: "Year", format:"%Y"}
+    },
+    y: {
+      field: "value",
+      type: "quantitative",
+      axis: {title: "Precipitation [mm]"},
+      //scale: { domain: [575, 582] }
+    }
+  }
+}` /]
